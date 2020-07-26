@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+html body {
+    margin: 0;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #cfd2da !important;
+    text-align: left;
+    background-color: #252830;
+    height: 100vh;
+}
+
+.container-app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.border-div, .border-div-top {
+    border-color: #adb5bd54 !important;
+}
+
+.border-div-top {
+    border-top: solid 1px;
+}
+
+.totals-container {
+    padding: 0.5rem 0rem 0.5rem 0rem !important;
+}
+
+.card-total-content {
+    margin: auto;
+    text-align: center;
+    background-color: #252830 !important;
+}
+
+.conten-total-label {
+    border-top: solid 1p;
+}
+
+.text-total-number {
+    font-size: 1.8rem;
+}
+
+.text-total-label {
+    font-size: 1.5rem;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-80 {
+    height: 80%;
+}

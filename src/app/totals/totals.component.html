@@ -1,0 +1,26 @@
+<div class="row totals-container m-0">
+    <div class="col-3 card card-total-content border-div">
+        <div class="col">
+            <span class="text-total-number text-warning">{{sumary.cases|number}}</span>
+        </div>
+        <div class="col border-div-top">
+            <span class="text-total-label text-muted">Confirmados</span>
+        </div>
+    </div>
+    <div class="col-3 card card-total-content border-div">
+        <div class="col">
+            <span class="text-total-number text-danger">{{sumary.deaths|number}}</span>
+        </div>
+        <div class="col border-div-top">
+            <span class="text-total-label text-muted">Muertes</span>
+        </div>
+    </div>
+    <div class="col-3 card card-total-content border-div">
+        <div class="col">
+            <span class="text-total-number text-success">{{sumary.recovered|number}}</span>
+        </div>
+        <div class="col border-div-top">
+            <span class="text-total-label text-muted">Recuperados</span>
+        </div>
+    </div>
+</div>
