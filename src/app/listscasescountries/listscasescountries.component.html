@@ -1,0 +1,30 @@
+<div class="container-list h-100">
+    <ul class="list-status">
+        <li *ngFor="let estado of listaEstados" class="item-list-status">
+            <div class="card item-status">
+                <div class="row m-0">
+                    <div class="col-3">
+                        <h6>{{estado.country}}</h6>
+                    </div>
+                    <div class="col p-0">
+                        <div class="row m-0">
+                            <div class="col text-center p-0">
+                                <span class="text-warning">{{estado.cases|number}}</span>
+                            </div>
+                            <div class="col text-center p-0">
+                                <span class="text-danger">{{estado.deaths|number}}</span>
+                            </div>
+                            <div class="col text-center p-0">
+                                <span class="text-success">{{estado.recovered|number}}</span>                                
+                            </div>
+                        </div>
+                        <div class="row m-0">
+                            <h6 class="w-100 m-0 text-center text-date">{{estado.last_update|date}}</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+</div>

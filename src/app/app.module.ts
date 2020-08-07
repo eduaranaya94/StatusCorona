@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TotalsComponent } from './totals/totals.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ListscasescountriesComponent } from './listscasescountries/listscasescountries.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TotalsComponent
+    TotalsComponent,
+    ListscasescountriesComponent
   ],
   imports: [
     BrowserModule,

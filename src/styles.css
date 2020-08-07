@@ -10,6 +10,28 @@ html body {
     height: 100vh;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #212529;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #212529; 
+  }
+
 .container-app {
     position: relative;
     display: flex;
@@ -53,4 +75,26 @@ html body {
 
 .h-80 {
     height: 80%;
+}
+
+.container-list{
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+}
+
+.list-status{
+    padding: 5px;
+}
+
+.item-list-status{
+    list-style: none;
+    margin: 10px 0px 10px 0px;
+}
+.item-status{
+    background-color: #252830 !important;
+}
+
+.text-date{
+    font-size: 0.7rem;
 }

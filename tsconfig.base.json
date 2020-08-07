@@ -17,9 +17,12 @@
       "dom"
     ],
     "paths": {
+      "@Services/*": [
+        "src/services/*"
+      ],
       "@Entities/*": [
         "src/entities/*"
-      ]
+      ]   
     }
   }
 }
