@@ -1,21 +1,42 @@
-<div class="h-100 container-app">
+<!--<div class="container-app">
     <div class="row  m-0">
         <nav class="navbar">
             <span class="navbar-brand mb-0 h1">Dashboard Covid-19</span>
         </nav>
     </div>
-    <div class="row h-100 ml-0 mr-0">
-        <div class="col-3 p-0 lateral-sumary-status ">
+    <div class="row ml-0 mr-0">
+        <div class="col-sm-12 col-lg-3 p-0">
             <app-listscasescountries></app-listscasescountries>
         </div>
-        <div class="col-9 p-0">
+        <div class="col p-0">
             <div class="row h-80 ml-0 mr-0 ">
-                <div class="col"></div>
+                <div class="col-sm-12 border"></div>
             </div>
-            <div class="row h-20 ml-0 mr-0 ">
-                <app-totals class="w-100"></app-totals>
+            <div class="row ml-0 mr-0 ">
+                <app-totals class="col"></app-totals>
             </div>
         </div>
     </div>
-
+</div>-->
+<div class="container-app">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Dashboard Covid-19</a>
+    </nav>
+    <div class="row m-0">
+        <div class="col-sm-3 order-2 order-sm-1">
+            <app-listscasescountries></app-listscasescountries>
+        </div>
+        <div class="col-sm-9 order-1 order-sm-2">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col card">Mapa</div>
+                    </div>
+                    <div class="row">
+                        <div class="col card">Contador</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

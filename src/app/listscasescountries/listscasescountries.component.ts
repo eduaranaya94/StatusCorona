@@ -17,7 +17,6 @@ export class ListscasescountriesComponent implements OnInit {
       .subscribe(
         (data: Status[]) => {
           this.listaEstados = data;
-          console.log(this.listaEstados);
         },
         (error) => {
           alert('Error al consultar la lista.');
