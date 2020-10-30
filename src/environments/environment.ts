@@ -6,7 +6,8 @@ export const environment = {
   production: false,
   apiCorona: {
     url: 'https://covid19-api.org',
-    status: '/api/status'
+    status: '/api/status',
+    countries: '/api/countries'
   }
 
 };
